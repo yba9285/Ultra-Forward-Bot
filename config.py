@@ -9,13 +9,13 @@
 import os
 
 class Config:
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = os.environ.get("API_ID", "13441344")
+    API_HASH = os.environ.get("API_HASH", "2f10533d9068507d0c10bf1074527167")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot") 
     DB_URL = os.environ.get("DB_URL", "")
     DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
-    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '').split()]
+    OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '5673859971').split()]
 
 
 class temp(object): 
